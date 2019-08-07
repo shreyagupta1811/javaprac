@@ -1,0 +1,19 @@
+class A{ }
+class B{ }
+class C{ }
+
+interface F{ }
+interface G{ }
+
+//interface E extends F{ }
+//interface E extends F,G{ }
+//interface E extends A{ }  //NOT OK
+//interface E extends A,B,C{ }  //NOT OK
+
+//NOT OK
+//interface  E implements F{ }  
+//interface E implements F,G{ }  
+//interface E implements A{ }
+//interface E implements A,B{ }
+
+

@@ -1,0 +1,5 @@
+abstract  interface F{
+	 abstract  void pro();
+}
+//u can use the keyword abstract  with interface but ts is by default abstract
+//if u do not defined the method it is abstract but no problem if  mark it as abstract.
