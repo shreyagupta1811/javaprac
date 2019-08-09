@@ -1,0 +1,28 @@
+class Y{
+	public static void main(String[] args){
+           try{
+			   //case 1  ------OK--------
+			     
+			     // throw new Throwable();
+                //  throw new Error();
+				  //throw new Exception();
+				//throw new RuntimeException();
+				//throw new ArithmeticException();
+				throw new FileNotFoundException();
+				
+
+				//case 2 ---------NOT OK---------
+				/*
+				//throw new lowBalanceException();
+				//throw new Y();
+				*/
+		   }catch(Throwable e){
+                  e.printStackTrace();
+		   }
+	}
+}
+class lowBalanceException{
+
+}
+/*tjis program shows that only THrowable class and its subclasses can be thrown ....here lowbalabceexception does not have any relation 
+with the throwable class so it doent caught its exception*/
