@@ -1,0 +1,9 @@
+class K{
+	public static void main(String[] args){
+             int a=20;
+
+			 if(12<15){
+                      int a=30;
+			 }
+	}
+}

@@ -1,0 +1,22 @@
+class MyRunnable implements Runnable {
+	public void run(){
+            	 for(int i=0;i<10;i++){
+                   System.out.println(i+"-"+Thread.currentThread().getName());
+			 }
+	}
+}
+class L{
+	public static void main(String[] args){
+             MyRunnable r=new MyRunnable(); 
+
+	         Thread t1=new Thread(r,"Mohan");
+			 Thread t2=new Thread(r,"ganesh");
+			 t1.start();
+			 t2.start();
+
+			 for(int i=0;i<10;i++){
+                   System.out.println(i+"-"+Thread.currentThread().getName());
+			 }
+	}
+}
+//in thread class we have multiple thread constructor ...here we use 2 parametrized constructor to make fresh new thread.

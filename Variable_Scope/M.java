@@ -1,0 +1,13 @@
+class M{
+	public static void main(String[] args){
+          for(int i=0;i<3;i++){
+			        int b=10;
+                   System.out.println(b);
+		  }
+
+		  int b=30;
+		  System.out.println(b+"~~~~~~~~");
+	}
+}
+/*there is no problem with duplicate variables becoz initially inside for loop b declare when for loop runs complete than than first variable 
+b get vanishes than agter than new b variable comes.*/

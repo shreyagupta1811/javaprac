@@ -1,0 +1,27 @@
+class E{
+	public static void main(String[] args){
+             byte b=2;
+			 short s=20;
+			 char c='a';
+			 int i =123;
+
+			 long l=123435L;
+			 float f=2.45f;
+			 double d=45.67;
+
+			 boolean bol=true;
+             //case 1----OK
+			 //int x=b;
+			 //int x=s;
+			// int x=c;
+
+			//case 2---oK
+			//int x=(int)l;
+           // int x=(int)f;
+			//  int x=(int)d;
+
+			//case 3---NOT OKK
+			//int x=bol;
+			int x=(int)bol;
+	}
+}

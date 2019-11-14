@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+class L{
+	public static void main(String[] args){
+           ArrayList a=new ArrayList();
+		   a.add("mohan");
+		   a.add("sohan");
+           a.add("rohan");
+			 a.add("gohan");
+		    a.add("tohan");
+			for(int i=0;i<a.size();i++){
+				//case 1
+                 //System.out.println(a.get(i ));
+				 //case 2
+				 //System.out.println(a[i]);
+			}
+	}
+}
+/*in second case there is compile time fail becoz array required and array list found*/

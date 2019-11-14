@@ -1,0 +1,4 @@
+package b1.b2;
+ class B{
+	public  int y= 100;
+}

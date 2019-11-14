@@ -1,0 +1,41 @@
+import java.util.TreeMap;
+
+class B{
+	public static void main(String[] args){
+           TreeMap map=new TreeMap();
+
+		   map.put("ganesh",12);
+		   map.put("dinesh",34);
+		   map.put("suresh",99);
+			map.put("ramesh",47);
+		   map.put("naresh",7);
+     	   map.put("kamlesh",1);
+		    map.put("yogesh",89);
+		     map.put("bhaavesh",21);
+		     map.put("vighnesh",76);
+
+			 System.out.println(map);
+			 //case 1
+			  //System.out.println(map.ceilingEntry("kamlesh"));
+			  // System.out.println(map.ceilingEntry("karthik"));
+			  //  System.out.println(map.ceilingEntry("zaaroon"));
+
+			   //case 2
+			  // System.out.println(map.ceilingKey("kamlesh"));
+			   //System.out.println(map.ceilingKey("karthik"));
+			   //System.out.println(map.ceilingKey("zaaroon"));
+
+			   //case 3
+			   //System.out.println(map.floorKey("kamlesh"));
+			   //System.out.println(map.floorKey("karthik"));
+			    // System.out.println(map.floorKey("bhaavesh"));
+
+				//case 4
+                 //System.out.println(map.headMap("naresh"));
+				   System.out.println(map.headMap("zarron"));
+       }
+}
+/*case 1--CeilingEntry() is key parametrized and return the least key,value that is greater than or equal to the parsed key...it will return null if
+the parsed key is not present in the given map*/
+/*case 2--CeilingKey() is key parametrized and return the least key that is greater than or equal to the parsed key...it will return null if
+the parsed key is not present in the given map*/

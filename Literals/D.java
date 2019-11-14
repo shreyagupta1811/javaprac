@@ -1,0 +1,43 @@
+class D{
+	public static void main(String[] args){
+		//case 1
+		/*
+          //int x=12;     //decimal...
+		  //int x=012;   //treated as octal no i.e the power of 8
+          // int x=0x12;  //teated as hexadecimal no i.e the power of 16
+         //int x=0xa1;    //hexa...
+		//int x=0xab1;    //hexad....
+			//System.out.println(x);
+			 */
+             
+			 //case 2
+			 /*
+			 //byte b=12;
+            // byte b=128;  //-----NOT OK----------
+			//byte b=127;
+			//byte b=-128;
+			  // byte b=-129;  //-------NOT OK-------
+			   System.out.println(b);*/
+
+			   //case 3
+			   /*
+              //short s=32767;
+			 // short s=32768;
+		  System.out.println(s);*/
+
+		  //case 4
+		  /*
+		  //int x= 787878624;
+		  //long x=787854263737;  //-------NOT OK---------
+		   // long x=(int)436372625155;    //---------NOT OK---------
+		  // long x=667436736363L;
+ 		  System.out.println(x);*/
+
+		  //case 5---this no is too large beyond the limit of long type.
+		 // long x=123456789101112131415161728L;
+		  //System.out.println(x);
+		  
+	}
+}
+/*the main point discussed in case 2 is that we can assign an int variable to byte upto the range of byte ....beyond range there is a compilation error
+possible lossy onversion from type int to byte.*/

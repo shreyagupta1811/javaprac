@@ -1,0 +1,21 @@
+import java.util.HashMap;
+class D{
+	public static void main(String[] args){
+           HashMap map=new HashMap();
+
+          map.put("mohan",12);
+		  map.put("sohan",34);
+		  map.put("rohan",43);
+	      map.put("gohan",20);
+		 map.put("tohan",6);
+
+          System.out.println(map);
+		  //case 1
+		  //System.out.println(map.remove("mohan"));
+		   //case 2
+		 //System.out.println(map.remove("eohan"));
+		   System.out.println(map);
+	}
+}
+//here on calling remove method and pasing key it will return the removed value.
+//and ehen the parsed key is not present it will return null.

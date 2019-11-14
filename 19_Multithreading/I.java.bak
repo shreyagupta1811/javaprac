@@ -1,0 +1,15 @@
+class MyThread extends Thread{
+	public void run(){
+
+	}
+}
+class I{
+	public static void main(String[] args){
+          MyThread t=new MyThread();
+		  //case 1
+		  //t.setPriority(10);
+
+		  //case 2
+		  t.setPriority(12);
+	}
+}

@@ -1,0 +1,13 @@
+class B{
+	void mno(){
+            class X{
+
+			}
+	}
+
+	void pro(){
+             class X{
+
+             }
+	}
+}

@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+class B{
+	public static void main(String[] args){
+          ArrayList<String> list=new ArrayList<String>();
+
+		              list.add("mohan");
+		  	          list.add("sohan");
+			  	      list.add("rohan");
+				  	  list.add("gohan");
+
+					  String[ ] sar=new String[0];
+					  String[ ] arr=list.toArray(sar);
+					  
+					  System.out.println(arr.length);
+					  for(String str:arr){
+                                System.out.println(str);
+					  }
+	}
+}
+//toArray() is one parametrized it is another method of list class that returns the array of elementys of list .
+//here the return type is array thet is same as the empty array parsed in the parameter.

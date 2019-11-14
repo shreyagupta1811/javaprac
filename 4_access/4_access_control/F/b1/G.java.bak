@@ -1,0 +1,8 @@
+package b1;
+import b1.b2.B;
+class G extends E{
+	G x = new G();
+	x.pro();
+}
+
+}

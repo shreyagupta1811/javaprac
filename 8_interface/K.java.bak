@@ -1,0 +1,24 @@
+//case 2
+interface K{
+    //case 1
+	//int x;      
+
+	//case 2
+	//int x=10;
+}
+
+//case 1
+/*class K{
+	//case 1
+	int x;
+
+	//case 2
+	//int x=10;
+
+	//case 3
+	//final int x;//(not OK)
+
+	//case 4
+	//final int x=40;
+}*/
+// in interface variables are by default final so they must intialize when they declare and there values cannot be changed

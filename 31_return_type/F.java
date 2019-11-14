@@ -1,0 +1,34 @@
+class F{
+	static int pro(){
+           byte b=2;
+		   short s=12;
+		   char c='n';
+		   int i=1234;
+
+		   long l=122452L;
+		   float f=3.45f;
+		   double d=5.67;
+
+		   boolean bol=false;
+            //case 1-----OK
+		   //return b;
+		   //return s;
+		  // return c;
+		  //return i;
+
+		  //case 2----OK
+		  //return l;
+		 // return (int)l;
+
+		 //return (int)f;
+		// return (int)d;
+
+		//case 3
+		//return bol;
+		//return (int)bol;
+	}
+	public static void main(String[] args){
+
+	}
+}
+//here the important point is that only the type that we can assign in int can only be return 

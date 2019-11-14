@@ -1,0 +1,15 @@
+class B{
+	static int add(int a,int b){
+           int sum=0;
+		   sum=a+b;
+		   return sum;
+	}
+	public static void main(String[] args){
+         //case 1
+           int x=add(10,20);
+		   System.out.println(x);
+
+		 //case 2
+		 //  System.out.println( add(10,20));
+	}
+}

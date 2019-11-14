@@ -1,0 +1,19 @@
+class C{
+	public static void main(String[] args){
+		//case 1
+         //System.out.println(abc());
+		 //case 2
+		 //pro(abc());
+		 //case 3
+		 int y=abc();
+	}
+ static void pro(){
+           System.out.println("hello");
+ }
+ static void abc(){
+         System.out.println("byee");
+ }
+}
+//case 1-we can not write a void type method in a print statement.
+//case 2-we cannot write any void method inside any void method
+//case 3-void method can not be write on the RHS of assignment operator.

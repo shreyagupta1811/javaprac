@@ -1,0 +1,21 @@
+class D{
+	public static void main(String[] args){
+         for(int k=0;k<4;k++){
+                 if(12<13){
+                        try{
+                                  int a=15;
+								  //case 1
+								  //System.out.println(a);
+						     }catch(NullPointerException e){
+                                  e.printStackTrace();
+						     }
+						        //case 2
+							   //System.out.println(a);
+				       }
+				            //case 3
+							 //System.out.println(a);
+		        }
+		                     //case 4
+						     //System.out.println(a);
+	      }
+}

@@ -10,8 +10,8 @@ class G{
 
 	}*/
 	//valid
-	/*void pro(){
+	void pro(){
 
-}*/
+}
 
 }

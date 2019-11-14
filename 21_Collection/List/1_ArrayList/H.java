@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+class H{
+	public static void main(String[] args){
+          ArrayList a=new ArrayList();
+		  a.add(10);
+		  a.add(20);
+		  a.add(30);
+		  a.add(40);
+		  a.add(50);
+		  System.out.println(a);
+		  System.out.println(a.remove(2));
+		   System.out.println(a);
+	}
+}
+/*here u pass directly int value inside remove method so it treat it as indexed parametrized remove method and remove element of 2 index
+that is 30*/

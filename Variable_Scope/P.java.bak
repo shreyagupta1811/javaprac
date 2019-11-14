@@ -1,0 +1,24 @@
+class P{
+             //case 3
+	    /*   {
+
+	         }
+			  int w=10;*/
+
+	         //case 2
+			/*  int w=10;
+			   {
+                  System.out.println(w);
+		      }*/
+		
+
+			 //case 1
+		   /*{
+                 // System.out.println(w);
+		   }
+		   int w=10;*/
+	
+}
+/*inside the main() the sequence of instance init block and instantiation block is very necessary ...whereas there is no sequence
+with instance variable and methods and constructor becoz methods constructor run only when they call */
+//when there is no code inside the init block than there is no problem with the sequence of init block and the instance level variable*/

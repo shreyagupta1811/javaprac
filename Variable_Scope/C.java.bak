@@ -1,0 +1,17 @@
+class C{
+	public static void main(String[] args){
+          try{
+                   int i=10;
+				   //case 1
+				   //System.out.println(i);
+		  }catch(NullPointerException e){
+                  e.printStackTrace();
+				    //case 2
+             //System.out.println(i);
+		  }
+		  //case 3
+             //System.out.println(i);
+	}
+	  //case 4
+             System.out.println(i);
+}

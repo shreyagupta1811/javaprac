@@ -1,4 +1,4 @@
-class A{
+ class A{
 	public static void main(String[] args){
 		SportsCar x=new SportsCar();
 	        //case1

@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+class J{
+	public static void main(String[] args){
+         ArrayList a=new ArrayList();
+		 a.add("mohan");
+		 a.add("sohan");
+		 a.add("rohan");
+		  a.add("gohan");
+		a.add("tohan");
+	     System.out.println(a);
+		 //case 1
+        //System.out.println(a.add(2,"vikramaditya"));
+		 //case 2
+		// System.out.println(a.set(2,"vikramaditya"));
+	     System.out.println(a);
+	}
+}
+/*in case 1 the add method have return type void and we can not call a void method from println() but in case 2 set method have return type E 
+it replace the value at specified position*/
+//set method is indexed parametrized.

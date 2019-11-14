@@ -1,0 +1,9 @@
+class E{
+	public static void main(String[] args){
+          int y=5;
+          abc();
+	}
+	 static void abc(){
+         System.out.println(y);
+	 }
+}

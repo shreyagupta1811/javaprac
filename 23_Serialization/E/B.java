@@ -1,0 +1,27 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.io.IOException;
+import java.io.FileNotFoundException;
+
+class B{
+	public static void main(String[]  args){
+              File f=new File("d.txt");
+			  try{
+                     FileInputStream fis=new FileInputStream(f);
+					 ObjectInputStream ois=new ObjectInputStream(fis);
+					 Student s=(Student)ois.readObject();
+
+					 System.out.println("Name:  "+s.name);
+					 System.out.println("Age: "+s.age);
+
+			  }catch(ClassNotFoundException e){
+                       e.printStackTrace();
+			  }catch(FileNotFoundException e){
+                        e.printStackTrace();
+			  }catch(IOException e){
+                        e.printStackTrace();
+			  }
+	}
+}
+//not only the properties of non serializable class are marked as transient but u can also mark the unwanted properties as the transient*/

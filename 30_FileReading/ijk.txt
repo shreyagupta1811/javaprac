@@ -1,0 +1,7 @@
+Convenience class for reading character files. The constructors of this class assume that the default character 
+encoding and the default byte-buffer size are appropriate.To specify these 
+values yourself, construct an InputStreamReader on a FileInputStream.
+Convenience class for reading character files.The constructors of this class
+ assume that the default character encoding and the default byte-buffer size
+ are appropriate. To specify these values yourself,construct an 
+InputStreamReader on a FileInputStream.
